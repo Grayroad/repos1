@@ -9,7 +9,7 @@ main()
 	float delta;
 	printf("Digite A, B e C da equacao.\n");
 	scanf("%d %d %d", &A, &B, &C);
-	if(B > 0)
+	if(B >= 0)
 	{
 		op1 = '+';
 	}
@@ -17,7 +17,7 @@ main()
 	{
 		op1 = ' ';
 	}
-	if (C > 0)
+	if (C >= 0)
 	{
 		op2 = '+';
 	}
